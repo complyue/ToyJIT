@@ -1,0 +1,11 @@
+
+# intermediate artifacts
+build/**
+
+# binaries, shell scripts shall be git added manually
+bin/**
+
+# ---> macOS
+.DS_Store
+.AppleDouble
+.LSOverride
