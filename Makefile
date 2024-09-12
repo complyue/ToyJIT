@@ -29,6 +29,7 @@ all: $(EXEC)
 
 # Ensure the build directory exists
 $(BUILDDIR):
+	mkdir -p bin
 	mkdir -p $(BUILDDIR)
 
 # Rule to link the executable
